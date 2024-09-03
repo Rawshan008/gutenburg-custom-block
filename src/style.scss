@@ -1,0 +1,49 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.my-custom-card-wrapper {
+	width: 100%;
+
+	.my-custom-card-single {
+		.my-custom-card-single-content {
+			padding: 10px;
+			border: 1px solid #ddd;
+			transition: 0.3s;
+			border-radius: 10px;
+			text-align: center;
+
+			&:hover {
+				background-color: #ddd;
+			}
+
+			img {
+				width: 300px;
+				height: 300px;
+				object-fit: cover;
+			}
+
+			h3 {
+				margin: 0;
+				padding: 0;
+				margin-bottom: 10px;
+			}
+
+			h4 {
+				margin: 0;
+				padding: 0;
+				margin-bottom: 10px;
+			}
+
+			p {
+				margin-bottom: 0;
+			}
+		}
+
+
+	}
+}

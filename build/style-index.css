@@ -1,0 +1,43 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.my-custom-card-wrapper {
+  width: 100%;
+}
+.my-custom-card-wrapper .my-custom-card-single .my-custom-card-single-content {
+  padding: 10px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+  border-radius: 10px;
+  text-align: center;
+}
+.my-custom-card-wrapper .my-custom-card-single .my-custom-card-single-content:hover {
+  background-color: #ddd;
+}
+.my-custom-card-wrapper .my-custom-card-single .my-custom-card-single-content img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.my-custom-card-wrapper .my-custom-card-single .my-custom-card-single-content h3 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.my-custom-card-wrapper .my-custom-card-single .my-custom-card-single-content h4 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.my-custom-card-wrapper .my-custom-card-single .my-custom-card-single-content p {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
